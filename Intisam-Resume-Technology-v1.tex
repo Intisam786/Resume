@@ -1,0 +1,140 @@
+\documentclass[12pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[scale=0.85]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\definecolor{color1}{HTML}{0076CE}
+\nopagenumbers{}
+
+\renewcommand*{\namefont}{\fontsize{24}{24}\mdseries\upshape}
+\renewcommand*{\titlefont}{\fontsize{16}{16}\mdseries\itshape}
+
+\name{Intisam}{Ahmed}
+\title{InfoSec Enthusiast}
+\address{Helsinki, Finland}
+\phone[mobile]{+358417215492}
+\email{intisam.ahmed@nordea.com}
+\social[linkedin]{intisam-ahmed-7037a51b3/}
+
+\begin{document}
+	\makecvtitle
+	
+	% Uncomment if you want photo (remove to make ATS-perfect)
+	\begin{picture}(0,0)
+	\put(200,0){\includegraphics[width=110pt]{Int6vip.jpg}}
+	\end{picture}
+	
+	\section{About Me}
+	\cvitem{}{A conscientious and self-driven professional with the capacity to excel in challenging environments and contribute to the team in an effective way.}
+	
+	% ---------------- SKILLS --------------------
+	\section{Professional Skills}
+	
+	\cventry{}{Cloud \& Security}{}{}{}{}
+	\cvitem{}{AWS (EC2, IAM, VPC, S3, RDS, GuardDuty, Security Hub, Lambda, LZ), Azure Fundamentals, Cloud Governance, Vulnerability Management}
+	
+	\cventry{}{Identity \& Access Management (IAM)}{}{}{}{}
+	\cvitem{}{Identity Lifecycle Management, Access Reviews, Policy Enforcement, RBAC, Certification Campaigns, Joiner/Mover/Leaver Processes}
+	
+	%\cventry{}{SailPoint IIQ Development \& Administration}{}{}{}{}
+	%\cvitem{}{Installation \& Configuration, LCM Workflows, HRMS Onboarding, AD \& LDAP Integration, REST API Integrations, ServiceNow Integration, Approval Assignment Rules, ProvisioningPlan APIs, Troubleshooting Rules, Database Integrations, OOTB + Custom Workflows}
+	
+	\cventry{}{SIEM \& EDR Tools}{}{}{}{}
+	\cvitem{}{QRadar, Azure Sentinel, ELK Stack, CrowdStrike Falcon, Kaspersky}
+	
+	\cventry{}{Networking}{}{}{}{}
+	\cvitem{}{TCP/IP, Wireshark, VLAN, OSPF/BGP, RSTP, Network Traffic Analysis}
+	
+	\cventry{}{Machine Learning \& Programming}{}{}{}{}
+	\cvitem{}{Python, TensorFlow, Keras, Scikit-Learn (RNN, LSTM), Data Processing}
+	
+	% ---------------- EXPERIENCE --------------------
+	\section{Work Experience}
+	
+	\cventry{Sep 2025 -- Present}{Technology Graduate}{Nordea}{Helsinki, Finland}{}{
+		\textbf{Rotation 1: IAM \& Security Governance}
+		\begin{itemize}
+			\item Supported Identity Governance and Access Management (IGA) initiatives across Nordea.
+			\item Worked with SailPoint IIQ to enhance identity lifecycle processes (Joiner, Mover, Leaver).
+			\item Implemented access certifications, policy enforcement, and governance controls.
+			\item Contributed to integration of Web Services, LDAP, and HR systems using SailPoint connectors.
+			\item Improved access request workflows using LCM, Approval Rules, and REST APIs.
+			\item Collaborated with cross-functional teams to strengthen IAM automation.
+		\end{itemize}
+	}
+	
+	\cventry{Mar 2024 -- Aug 2025}{IT Analyst (Cloud Security)}{Nordea}{Helsinki, Finland}{}{
+		\begin{itemize}
+			\item Strengthened cloud security posture through AWS Landing Zone governance and automation.
+			\item Managed GuardDuty, Security Hub, IAM reviews, and vulnerability mitigation processes.
+			\item Contributed to cloud security baselines ensuring secure-by-default architecture.
+			\item Improved monitoring dashboards and collaborated in Agile SAFe environment.
+		\end{itemize}
+	}
+	
+	\cventry{Jan 2023 -- Aug 2023}{IT Security Engineer}{Ebryx (Pvt.) Ltd.}{Islamabad, Pakistan}{}{
+		\begin{itemize}
+			\item 24/7 SOC monitoring using SIEM \& EDR tools.
+			\item Investigated and triaged logs/events, escalating high-risk incidents.
+			\item Conducted threat hunting aligned with MITRE ATT\&CK.
+			\item Tuned SIEM detection rules and reinforced IR processes.
+		\end{itemize}
+	}
+	
+	\cventry{Jun 2022 -- Dec 2022}{Information Security Engineer}{Trillium Information Security Systems}{Rawalpindi, Pakistan}{}{
+		\begin{itemize}
+			\item Deployed and upgraded IBM QRadar for enterprise clients.
+			\item Delivered security awareness trainings and risk assessments.
+			\item Performed SIEM health checks and optimized event ingestion pipelines.
+		\end{itemize}
+	}
+	
+	% ---------------- EDUCATION --------------------
+	\section{Education}
+	\cventry{2023--2025}{M.Sc Information Security}{Tampere University}{Finland}{}{
+		Thesis: \textit{Real-World Anomaly Detection Using RNN/LSTM for DDoS Detection}
+	}
+	
+	\cventry{2018--2022}{BS Computer Science}{PMAS Arid University}{Pakistan}{}{}
+	
+	
+	% ---------------- CERTIFICATIONS --------------------
+	\section{Certifications \& Trainings}
+	\cvitem{AWS}{AWS Certified Solutions Architect}
+	\cvitem{AWS}{AWS Security Specialty (Training Completed)}
+	\cvitem{Azure}{Microsoft Azure Fundamentals}
+	\cvitem{Identityclasses}{SailPoint IIQ Engineer}
+	\cvitem{TryHackMe}{Security Engineer Learning Path}
+	\cvitem{Fortinet}{NSE Level 1}
+	\cvitem{Edureka}{CompTIA Security+}
+	\cvitem{Cisco}{NAVTTC Certificate in Cisco Administration}
+	\cvitem{DL/ML}{Stanford Machine Learning, TensorFlow Developer}
+	
+	% ---------------- CONFERENCES --------------------
+	\section{Conferences \& Events}
+	\cvitem{2025}{Nordea Representative – Slush 2025, Helsinki}
+	\cvitem{2025}{IT Hekuma, Tampere University}
+	\cvitem{2024}{Nordic IT Security Conference – Stockholm}
+	\cvitem{2024}{AWS re:Invent Watch Party – Helsinki}
+	\cvitem{2024}{Azure and Friends – Tampere}
+	\cvitem{2024}{IT Hekuma 2024 – Tampere University}
+	
+	% ---------------- AWARDS --------------------
+	\section{Awards \& Achievements}
+	\cvitem{Scholarship}{Finland Scholarship for Master's Program}
+	\cvitem{Trillium}{Best Performance “Ownership Card”}
+	
+	% ---------------- LANGUAGE --------------------
+	\section{Languages}
+	\cvitemwithcomment{English}{Professional Working Proficiency}{}
+	\cvitemwithcomment{Swedish}{Intermediate (Allmänna språkexamina passed Aug 2025)}{}
+	\cvitemwithcomment{Urdu}{Native}{}
+	
+	% ---------------- HOBBIES --------------------
+	\section{Hobbies \& Interests}
+	\cvitem{}{Gym, Table Tennis, Online Learning}
+	
+\end{document}
